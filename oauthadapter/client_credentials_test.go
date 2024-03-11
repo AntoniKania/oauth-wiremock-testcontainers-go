@@ -72,7 +72,7 @@ func TestCCAdapter_GetToken(t *testing.T) {
 	for _, tc := range testCases {
 		t.Run(tc.Name, func(t *testing.T) {
 			tc := tc
-			// t.Parallel()
+			t.Parallel()
 
 			wm := SetupWireMock(t)
 			wm.Client.StubFor(tc.WireMockStubRule)
