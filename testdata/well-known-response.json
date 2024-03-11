@@ -1,0 +1,7 @@
+{
+  "issuer": "http://localhost:${PORT}/",
+  "authorization_endpoint": "http://localhost:${PORT}/authorize",
+  "token_endpoint": "http://localhost:${PORT}/token",
+  "userinfo_endpoint": "http://localhost:${PORT}/userinfo",
+  "jwks_uri": "http://localhost:${PORT}/.well-known/jwks.json"
+}
