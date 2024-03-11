@@ -5,17 +5,17 @@ This repository contains demo code that was prepared for a presentation on the u
 ![overview_paralel](https://github.com/AntoniKania/oauth-wiremock-testcontainers-go/assets/87483058/f51a5e60-1829-49c4-962c-db0b65f9556c)
 
 ## Key Features
-**OpenID Connect Discovery:** Automated fetching of server configuration details.
-**OAuth Client Credentials Flow:** Secure method to obtain access tokens for microservices.
-**Parallel Test Execution:** Speed up testing with Go's parallel execution feature.
-**WireMock Integration:** Simulates the authorization server for testing, providing both the well-known and token endpoints.
-**Testcontainers Support:** Manages the WireMock server instance within a Docker container directly from the test code.
+- **OpenID Connect Discovery:** Automated fetching of server configuration details.
+- **OAuth Client Credentials Flow:** Secure method to obtain access tokens for microservices.
+- **Parallel Test Execution:** Speed up testing with Go's parallel execution feature.
+- **WireMock Integration:** Simulates the authorization server for testing, providing both the well-known and token endpoints.
+- **Testcontainers Support:** Manages the WireMock server instance within a Docker container directly from the test code.
 
 
 ## Running locally
 ### Prerequisites
-**Go:** You must have Go installed on your machine. Visit Go's official website for installation instructions.
-**Docker:** Required for running the WireMock server instance inside a container. Download Docker from Docker's official website.
+- **Go:** You must have Go installed on your machine. Visit Go's official website for installation instructions.
+- **Docker:** Required for running the WireMock server instance inside a container. Download Docker from Docker's official website.
 ### Run the tests:
 
 This project is configured to run tests in parallel by default, significantly reducing the test execution time. To run the tests, use the command:
